@@ -1,0 +1,15 @@
+[package]
+name = "TogetherChain"
+version = "1.1.1"
+authors = ["Pranay"]
+
+[addresses]
+MyModule = '0xa3036685486ac670873461343c5991167b42a95c314725f7761bba3cb3a6c5f2'
+# [dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "testnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+# [dev-dependencies]
